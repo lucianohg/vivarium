@@ -7,4 +7,10 @@ class StaticPagesController < ApplicationController
 
   def clients
   end
+
+  def about
+  end
+
+  def product
+  end
 end

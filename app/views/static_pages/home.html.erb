@@ -1,2 +1,59 @@
-<h1>StaticPages#home</h1>
-<p>Find me in app/views/static_pages/home.html.erb</p>
+<header id="home-header">
+	<div class="container">
+		<div class="navbar">
+			<div class="nav pull-left" id="logo">
+				<%= link_to image_tag("logoTest.png", alt: "Home"), "#" %>
+			</div>
+			<div id="nav-table">
+				<ul class="nav pull-right">
+					<li><%=link_to "Produto", produto_path %></li>
+					<li><%=link_to "Sobre", sobre_path %></li>
+					<li class="active">
+						<%=link_to "Contato", "#" %>
+					</li>				
+				</ul>
+			</div>
+		</div>
+	</div>
+	<header id ="home-jumbo">
+			<div class= "container">
+				<h1>Inovação em agronegócio</h1><br/>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/>
+					Suspendisse ac odio et mi eleifend commodo et eget nisi.<br/> 
+					Sed eu nunc at leo hendrerit tempor. Fusce enim est,<br/>
+					vulputate et justo facilisis, ornare malesuada mauris. 
+				</p><br/>
+				<button type="button" class="btn btn-large btn-primary">
+				<%=link_to "Veja os Nossos Produtos", produto_path%>
+				<span class="glyphicon glyphicon-forward"></span>				
+				</button>
+			</div>
+	</header>	
+</header>
+<div class= "container">
+	<div class = "container" id="steps">
+		<div class ="row">
+			<h1> Diminuímos os riscos para que você possa produzir mais.</h1>
+			<p> Monitorando em tempo real informações chaves da água, a Vivarium permite
+				 que você <span class="highlight">produza mais</span> e com muito
+				 <span class="highlight">mais segurança</span></p>
+		</div>
+		<div class= "row">
+			<div class= "span4">
+				<img class="img-circle" src="assets/IconSpeed.png">
+				<h1> Esteja Sempre Informado </h1>
+			</div>
+			<div class= "span4">
+				<img class="img-circle" src="assets/IconGlove.png">
+				<h1> Combata os riscos </h1>
+			</div>
+			<div class= "span4">
+				<img class="img-circle" src="assets/IconReport.png">
+				<h1> Aumente sua produção </h1>
+			</div>
+		</div>
+	</div>
+</div>
+
+
