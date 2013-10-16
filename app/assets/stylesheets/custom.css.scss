@@ -98,14 +98,21 @@ textarea {
 .feature{
 	padding:30px 0px 30px;
 	h1 {
-		font-size: 36px;
+		font-size: 50px;
 		.muted{
-			font-size: 30px;
+			font-size: 35px;
 		}
 	}
+	a {
+		color: #0B862C;
+		text-decoration: none;
+	}
+	p {
+		font-size: 20px;
+	}
+
 	.feature-text{
-		padding-top: 70px;
-		padding-bottom:15px;
+		
 	}
 	.image{
 		-moz-box-shadow: 0 0 5px #888;
@@ -116,7 +123,8 @@ textarea {
 
 /* Home Only */
 #home-header{
-	background-image: image-url("11.jpeg")
+	background-image: image-url("grey_wash_wall.png");
+	box-shadow: 0 0 20px #888;
 }
 
 #logo{
@@ -163,10 +171,11 @@ textarea {
 		color: #6bc62e;
 	}
 	p {
-		font-size: 20px;
+		font-size: 25px;
 	}
 	.btn-primary{
 		border: 2px solid rgba(0, 0, 0,.30);
+		font-size: 20px;
 		background: rgba(107, 198, 46,.60);
 		a {
 			text-decoration: none;
@@ -405,6 +414,18 @@ body {
 }
 .dark {	
 	background-image: image-url("subtle_grunge.png");
+}
+
+.content{
+	h1{
+		font-size:50px;
+	}
+	p {
+		font-size: 20px;
+	}
+	img {
+		box-shadow: 0 0 20px #888;
+	}
 }
 
 
