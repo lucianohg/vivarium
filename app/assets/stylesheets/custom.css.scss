@@ -446,7 +446,7 @@ body {
 	box-shadow: 0 0 10px #888;
 	border-radius: 10px;
 	margin-top: 20px;
-	background-image: image-url("subtle_grunge.png"); 
+	background-image: asset-url("subtle_grunge.png", image); 
 	.control-label{
 		font-size: 30px;
 
