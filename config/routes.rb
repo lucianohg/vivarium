@@ -2,6 +2,9 @@ Vivarium::Application.routes.draw do
   root 'static_pages#home'
   match '/produto', to: 'static_pages#product', via: 'get'
   match '/sobre', to: 'static_pages#about', via: 'get'
+  match '/contacts', to: 'contacts#new', via: 'get'
+  match '/contacts', to: 'contacts#create', via: 'post'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

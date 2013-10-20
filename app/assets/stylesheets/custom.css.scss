@@ -186,37 +186,7 @@ textarea {
 
 /* About */
 
-.sub-header{
-	margin-top: 50px;
-	background-image: asset-url("grey_wash_wall.png", image);
-	h1 {
-			text-shadow: 0 2px 4px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
-			margin-top: 65px;
-			font-size: 50px;
-			letter-spacing: -1px;
-			color: #fff;
-			line-height: 1;
-			text-align: left;
-	}
-	.nav-table{
-		.nav-title{
-			text-shadow: 0 2px 4px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
-			font-size: 20px;
-			color: #fff;
-			line-height: 2;
-		}
-		font-size: 17px;
-		margin-top:30px;
-		padding: 20px 10px 20px 30px;
-		border-left: 2px solid rgba(0, 0, 0,.1);
-		a {
-			color: rgba(107, 198, 46,1);
-			&:hover{
-				border-radius:5px;
-			}
-		}
-	}
-}
+
 $bg: #fcfcfc;
 
 $timeline-bg: beige;//#e7eff1;
@@ -428,7 +398,87 @@ body {
 	}
 }
 
+/* Contact */
+.sub-header{
+	margin-top: 50px;
+	box-shadow: 0 0 15px #888;
+	padding:20px;
+	background-image: asset-url("grey_wash_wall.png", image);
+	h1 {
+			text-shadow: 0 2px 4px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
+			font-size: 50px;
+			text-align: center;
+			letter-spacing: -1px;
+			color: #fff;
+			line-height: 1;
+	}
+	p {
+		font-size:20px;
+		text-align: center;
+		color:#fff;
+		line-height: 1;
+	}
+	/*
+	.nav-table{
+		.nav-title{
+			text-shadow: 0 2px 4px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
+			font-size: 20px;
+			color: #fff;
+			line-height: 2;
+		}
+		font-size: 17px;
+		margin-top:30px;
+		padding: 20px 10px 20px 30px;
+		border-left: 2px solid rgba(0, 0, 0,.1);
+		a {
+			color: rgba(107, 198, 46,1);
+			&:hover{
+				border-radius:5px;
+			}
+		}
+	}*/
+}
+.wrap {
+	position:middle;
 
+}
+.contato{
+	box-shadow: 0 0 10px #888;
+	border-radius: 10px;
+	margin-top: 20px;
+	background-image: image-url("subtle_grunge.png"); 
+	.control-label{
+		font-size: 30px;
+
+	}
+	.form-horizontal{
+		padding: 10px;
+		.control-label{
+			color:#0B862C;
+			margin-right: 50px;
+			width:300px;
+			height:40px;
+			text-align: left;
+		}
+		.controls{
+			margin-left: 0px;
+			text-align: center;
+		}
+		.form-actions{
+			padding-left:0px;
+			text-align: center;
+			background-color: inherit;
+			.btn-primary{
+				border: 2px solid rgba(0, 0, 0,.30);
+				font-size: 20px;
+				background: rgba(107, 198, 46,.60);
+				a {
+				text-decoration: none;
+				}
+			}
+		}
+	}
+}
 /* footer */
 
 footer{
