@@ -1,18 +1,6 @@
 <% provide(:title, 'Sobre') %>
 <%= render 'layouts/header' %>
-<!--
-<header class="sub-header">
-	<div class="container">
-		<ul class= "nav pull-right nav-table">
-			<li class="nav-title">Sobre</li>
-			<li><%=link_to "Nossa Motivação", '#' %> </li>
-			<li><%=link_to "Nossos Sonhos", '#' %> </li>
-			<li><%=link_to "Quem somos", '#' %> </li>
-		</ul>
-		<h1> Conheça mais a nossa empresa</h1>
-	</div>
-</header>
--->
+
 <div class = "row tmln">
 	<div class = "container" style="text-align:center;">
 	<h1> Nossa História! </h1>
@@ -23,7 +11,7 @@
 	  </div>
 	  <div class ="container">
 	  <div class='entries'>
-	  <div class= 'span4'>
+	  <div class= 'span3'>
 	    <div class='entry project'>
 	      <div class='dot'></div>
 	      <div class='label'>
@@ -36,7 +24,7 @@
 	      </div>
 	    </div>
 	   </div>
-	   <div class= 'span4'>
+	   <div class= 'span3'>
 	    <div class='entry project'>
 	      <div class='dot'></div>
 	      <div class='label'>
@@ -49,7 +37,7 @@
 	      </div>
 	    </div>
 	    </div>
-	    <div class= 'span4'>
+	    <div class= 'span3'>
 		    <div class='entry project'>
 		      <div class='dot'></div>
 		      <div class='label'>
@@ -62,6 +50,19 @@
 		      </div>
 		    </div>
 	    </div>
+	    <div class= 'span3'>
+	    <div class='entry project'>
+	      <div class='dot'></div>
+	      <div class='label'>
+	        <div class='time'>
+	          <a href='#fourth'>November 2005</a>
+	        </div>
+	        <div class='detail'>
+	          <a href='#fourth'>Estágio atual</a>
+	        </div>
+	      </div>
+	    </div>
+	   </div>
 	  </div>
 	  </div>
 	</div>
@@ -73,9 +74,7 @@
 		<div class = "span6">
 		<h1>Primeiro Cliente</h1><br/>
 			<p>
-				A tresM investimentos foi a primeira empresa a acreditar
-				na possibilidade do monitoramento remoto como forma de alavancar
-				a produção e financiou os custos do desenvolvimento do primeiro protótipo. 
+				A TresM empreendimentos foi a primeira empresa a acreditar no monitoramento remoto como forma de alavancar a produção e em janeiro de 2013 adiquiriu o AquaUno, primeiro protótipo da Vivarium.
 			</p><br/>
 		</div>
 		<div class = "span5 pull-right">
@@ -93,10 +92,11 @@
 		<div class = "span6 pull-right">
 		<h1>Primeiro Teste de campo</h1><br/>
 			<p>
-				O primeiro teste em campo foi a prova do conceito.
-				Testamos o funcionamento do sistema de comunicação e as medidas de PH,
-				temperatura e pressão parcial de oxigênio. A estrutura mecânica ainda era
-				simples e pouco robusta, mas as medições foram um sucesso bem como o sistema de comunicação. 
+				O primeiro teste em campo do foi a prova do conceito. Testamos o funcionamento
+				do sistema de comunicação e as medidas de PH, temperatura e
+				pressão parcial de oxigênio. A estrutura mecânica ainda era 
+				simples e pouco robusta, mas as medições foram um sucesso bem
+				como o sistema de comunicação.
 			</p><br/>
 		</div>
 	</div>
@@ -108,15 +108,26 @@
 		<div class = "span6">
 		<h1>Segundo Teste de campo</h1><br/>
 			<p>
-				O segundo protótipo já contava com uma estrutura mecânica mais robusta,
-				o que permite ao mesmo resistir a remadas acidentais durante a instalação ou
-				calibração. Além disto, foram incorporadas as medidas de condutividade, 
-				salinidade e oxigênio em mg/L. A Vivarium agora trabalha em tornar as medições
-				mais precisas e o protótipo mais resistente a corrosão em função da maresia típica das regiões onde se localizam os viveiros.
+				No segundo teste, o AquaUno já contava com uma estrutura mecânica mais robusta, resistente a remadas acidentais durante a instalação ou calibração. Foram incorporadas as medidas de condutividade, salinidade e oxigênio em mg/L.
 			</p><br/>
 		</div>
 		<div class = "span5 pull-right">
 			<img class = "img-circle" src = "assets/Teste2.jpg">
+		</div>
+	</div>
+</div>
+<div class= "contentr">
+	<a name="fourth"> </a>
+	<br />
+	<div class = "container content">
+		<div class = "span5">
+			<img class = "img-circle" src = "assets/Teste1.JPG">
+		</div>
+		<div class = "span6 pull-right">
+		<h1>Estágio Atual</h1><br/>
+			<p>
+				A Vivarium agora trabalha para tornar o AquaUno ainda mais preciso e resistente a corrosão em função da maresia típica das regiões produtoras de camarão.
+			</p><br/>
 		</div>
 	</div>
 </div>

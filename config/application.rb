@@ -24,6 +24,15 @@ module Vivarium
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
+    config.action_mailer.delivery_method = :smtp
+    config.action_mailer.smtp_settings = {
+    address:              'smtp.gmail.com',
+    port:                 587,
+    domain:               'ancient-dawn-4073.herokuapp.com',
+    user_name:            ENV["GMAIL_USERNAME"],
+    password:             ENV["GMAIL_PASSWORD"],
+    authentication:       'plain',
+    enable_starttls_auto: true  }
     config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
   end
 end
