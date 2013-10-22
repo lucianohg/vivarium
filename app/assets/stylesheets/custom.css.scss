@@ -99,6 +99,7 @@ textarea {
 	padding:30px 0px 30px;
 	h1 {
 		font-size: 50px;
+		color: #0B862C;
 		.muted{
 			font-size: 35px;
 		}
@@ -114,10 +115,16 @@ textarea {
 	.feature-text{
 		
 	}
-	.image{
+	.ibagem{
+		text-align: center;
+	}
+	.img-square{
 		-moz-box-shadow: 0 0 5px #888;
 		-webkit-box-shadow: 0 0 5px#888;
 		box-shadow: 0 0 5px #888;
+	}
+	.highlight{
+		font-weight: bold;
 	}
 }
 
